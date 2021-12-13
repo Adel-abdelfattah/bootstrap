@@ -11,6 +11,7 @@
 body {
   font-family: 'Stick No Bills', sans-serif;
   background-color: white;
+  scroll-behavior: smooth;
 }
 
 .hvr-bounce-to-top:before {

@@ -42,14 +42,11 @@ body {
         color: white;
         text-align: center;
         border-radius: 5px;
-        &:hover {
-          // background-color: rgb(126, 213, 235);
-        }
-        &:active {
-          // background-color: rgb(126, 213, 235);
-        }
-        &:focus {
-          // background-color: rgb(126, 213, 235);
+        @media (max-width: 576px) {
+          display: block;
+          &:hover {
+            background-color: rgb(126, 213, 235);
+          }
         }
       }
     }
@@ -69,9 +66,6 @@ body {
   #about.row.about {
     align-items: stretch;
       .col-12.col-lg-6 {
-        .parent {
-
-        }
         .user {
           background-color: #eee;
           width: 50px;

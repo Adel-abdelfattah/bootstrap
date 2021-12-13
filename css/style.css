@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Stick No Bills', sans-serif;
+  background-color: white;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+  background-color: #7fbbff !important;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark .navbar-toggler {
+  color: white;
+  border: solid rgba(203, 229, 236, 0.548);
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark .navbar-toggler .navbar-toggler-icon {
+  color: white;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark .navbar-toggler:focus {
+  border: none;
+  outline-color: white;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark #collapsibleNavbar.collapse.navbar-collapse.justify-content-end .navbar-nav .nav-link {
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark #collapsibleNavbar.collapse.navbar-collapse.justify-content-end .navbar-nav .nav-link:hover {
+  background-color: #7ed5eb;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark #collapsibleNavbar.collapse.navbar-collapse.justify-content-end .navbar-nav .nav-link:active {
+  background-color: #7ed5eb;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark #collapsibleNavbar.collapse.navbar-collapse.justify-content-end .navbar-nav .nav-link:focus {
+  background-color: #7ed5eb;
+}
+
+.head {
+  background-image: url(https://th.bing.com/th/id/R.4c487cd249cf0f99ef345b97e92fcffe?rik=M5D7FM63corRoA&pid=ImgRaw&r=0);
+  background-size: cover;
+  border-bottom: 3px solid gray;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.row.mt-2 #about.row.about {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.row.mt-2 #about.row.about .col-12.col-lg-6 .user {
+  background-color: #eee;
+  width: 50px;
+  margin-right: 20px;
+  padding: 10px;
+  height: 55.5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .row.mt-2 #about.row.about .col-12.col-lg-6 .user {
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+.row.mt-2 #about.row.about .col-12.col-lg-6 .one {
+  background-color: #eee;
+  line-height: 1.9;
+  position: relative;
+}
+
+.row.mt-2 #about.row.about .col-12.col-lg-6 .one::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  right: -10px;
+  top: 0;
+  background-color: #009688;
+}
+
+.row.mt-2 #about.row.about .col-12.col-lg-6 .one::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  width: 0;
+  height: 0;
+  background-color: white;
+  margin-top: -10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent #009688 transparent transparent;
+}
+
+@media (max-width: 576px) {
+  .row.mt-2 #about.row.about .col-12.col-lg-6 .one::before {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .row.mt-2 #about.row.about .col-12.col-lg-6 .one::before {
+    display: none;
+  }
+}
+
+.row.mt-2 #about.row.about .imm {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 7px 7px 42px -1px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 7px 7px 42px -1px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 7px 7px 42px -1px rgba(0, 0, 0, 0.57);
+}
+
+.row.mt-2 .row.justify-content-center .learn {
+  width: 200px;
+  height: 50px;
+  background-color: #009688;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-box-shadow: 7px 7px 42px -1px rgba(0, 0, 0, 0.57);
+          box-shadow: 7px 7px 42px -1px rgba(0, 0, 0, 0.57);
+}
+
+.row.mt-2 .row.justify-content-center .learn:hover {
+  background-color: #1a1919;
+  color: white;
+  -webkit-box-shadow: 7px 7px 42px -1px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 7px 7px 42px -1px rgba(0, 0, 0, 0.57);
+}
+
+#services.head2 {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 0;
+  background: #202020 url(https://th.bing.com/th/id/R.a6f33afeb50f8aa3553acfab90e9c0d9?rik=jO24fny8ZPwjeQ&pid=ImgRaw&r=0) center center no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid orangered;
+  border-top: 1px solid orangered;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#services.head2 .service1 {
+  height: 250px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+#services.head2 .service1 .my-auto {
+  cursor: pointer;
+}
+
+#services.head2 .service1:hover {
+  color: #009688;
+}
+
+#services.head2 .service1 svg {
+  font-size: 50px;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font: bold 16px sans-serif;
+}
+
+.footer-distributed .footer-left h3 {
+  color: #ffffff;
+  font: normal 36px 'Cookie', cursive;
+}
+
+.footer-distributed .footer-left h3 span {
+  color: #5383d3;
+}
+
+.footer-distributed .footer-left .footer-links {
+  color: #ffffff;
+}
+
+.footer-distributed .footer-left .footer-links a {
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-left .footer-links a:hover {
+  background-color: cadetblue;
+}
+
+.footer-distributed .footer-left .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.footer-distributed .footer-center div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer-distributed .footer-center div svg {
+  color: #2ab8d1;
+  font-size: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+}
+
+.footer-distributed .footer-center div p {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.footer-distributed .footer-center div p span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center div p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-right .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.footer-distributed .footer-right .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-distributed .footer-right .footer-icons a {
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */

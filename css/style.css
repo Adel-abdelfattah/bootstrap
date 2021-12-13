@@ -13,8 +13,17 @@ body {
   background-color: white;
 }
 
+.hvr-bounce-to-top:before {
+  background-color: #7ed5eb;
+  border-radius: 5px;
+}
+
 .navbar.navbar-expand-sm.bg-dark.navbar-dark {
   background-color: #7fbbff !important;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark .navbar-brand {
+  background-color: #7fbbff;
 }
 
 .navbar.navbar-expand-sm.bg-dark.navbar-dark .navbar-toggler {
@@ -35,18 +44,6 @@ body {
   color: white;
   text-align: center;
   border-radius: 5px;
-}
-
-.navbar.navbar-expand-sm.bg-dark.navbar-dark #collapsibleNavbar.collapse.navbar-collapse.justify-content-end .navbar-nav .nav-link:hover {
-  background-color: #7ed5eb;
-}
-
-.navbar.navbar-expand-sm.bg-dark.navbar-dark #collapsibleNavbar.collapse.navbar-collapse.justify-content-end .navbar-nav .nav-link:active {
-  background-color: #7ed5eb;
-}
-
-.navbar.navbar-expand-sm.bg-dark.navbar-dark #collapsibleNavbar.collapse.navbar-collapse.justify-content-end .navbar-nav .nav-link:focus {
-  background-color: #7ed5eb;
 }
 
 .head {
@@ -198,6 +195,7 @@ body {
 
 .footer-distributed .footer-left h3 span {
   color: #5383d3;
+  cursor: pointer;
 }
 
 .footer-distributed .footer-left .footer-links {
@@ -228,6 +226,7 @@ body {
 }
 
 .footer-distributed .footer-center div svg {
+  cursor: pointer;
   color: #2ab8d1;
   font-size: 25px;
   border-radius: 50%;
@@ -274,5 +273,9 @@ body {
   text-align: center;
   line-height: 35px;
   padding: 5px;
+}
+
+.hvr-buzz {
+  vertical-align: 0;
 }
 /*# sourceMappingURL=style.css.map */

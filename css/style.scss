@@ -13,9 +13,14 @@ body {
 }
 
 // navigation
+.hvr-bounce-to-top:before{
+  background-color: rgb(126, 213, 235);
+  border-radius: 5px;
+}
 .navbar.navbar-expand-sm.bg-dark.navbar-dark {
   background-color: rgb(127, 187, 255) !important;
   .navbar-brand {
+    background-color: rgb(127, 187, 255);
     &:hover {}
   }
   .navbar-toggler {
@@ -38,13 +43,13 @@ body {
         text-align: center;
         border-radius: 5px;
         &:hover {
-          background-color: rgb(126, 213, 235);
+          // background-color: rgb(126, 213, 235);
         }
         &:active {
-          background-color: rgb(126, 213, 235);
+          // background-color: rgb(126, 213, 235);
         }
         &:focus {
-          background-color: rgb(126, 213, 235);
+          // background-color: rgb(126, 213, 235);
         }
       }
     }
@@ -185,6 +190,7 @@ body {
         font: normal 36px 'Cookie', cursive;
         span {
             color: #5383d3;
+            cursor: pointer;
         }
       }
       .footer-links {
@@ -210,10 +216,9 @@ body {
         align-items: center;
         margin-bottom: 15px;
         svg {
-            
+            cursor: pointer;
             color: #2ab8d1;
             font-size: 25px;
-          
             border-radius: 50%;
             text-align: center;
             line-height: 42px; 
@@ -221,8 +226,7 @@ body {
         p {
             color: #ffffff;
            margin-bottom: 0;
-            span {
-                
+            span {  
                 font-weight: normal;
                 font-size: 14px;
                 line-height: 2;
@@ -264,4 +268,7 @@ body {
         }
       }
     }
+  }
+  .hvr-buzz {
+    vertical-align: 0;
   }
